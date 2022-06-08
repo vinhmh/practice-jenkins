@@ -1,7 +1,5 @@
 node {
-    stage "Create build output"
-    sh "docker ps"
-    
+    stage "Create build output"    
     // Make the output directory.
     sh "mkdir -p output"
 
