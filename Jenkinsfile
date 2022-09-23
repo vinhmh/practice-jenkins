@@ -8,7 +8,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh "echo hello cicd"
+                sh "echo hello cicd update"
                 sh "echo '${env.GIT_BRANCH}'"
                 }
             }
