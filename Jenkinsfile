@@ -8,7 +8,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh "echo hello main branch"
+                sh "echo hello main branch v2"
                 sh "echo '${env.GIT_BRANCH}'"
                 }
             }
